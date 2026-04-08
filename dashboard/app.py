@@ -38,7 +38,7 @@ filtered_df = df[
 
 # HEADER
 
-st.title("🧳 Luggage Market Intelligence Dashboard")
+st.title("Luggage Market Intelligence Dashboard")
 
 col1, col2, col3, col4 = st.columns(4)
 
@@ -85,9 +85,9 @@ st.plotly_chart(fig3, use_container_width=True)
 st.divider()
 
 
-# AI INSIGHTS (STATIC NOW → DYNAMIC LATER)
+# AI INSIGHTS 
 
-st.subheader("🤖 AI Insights")
+st.subheader("AI Insights")
 
 st.info("""
 - Safari appears strongest in value-for-money segment  
